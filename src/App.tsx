@@ -15,7 +15,6 @@ function App() {
             `
           }
         >
-          {/* DEV NOTE!!! THIS RENDERING LOGIC IS JUST FOR TESTING AND RENDERING I WILL CHANGE IT TO MAP AS SOON AS I CAN */}
           {testimonials.map(card => (
             <Card key={card.id} {...card} />
           ))}
