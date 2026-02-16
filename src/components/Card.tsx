@@ -30,7 +30,7 @@ export function Card(
   }: CardProps) {
   return (
     <article className={`${styling?.bgColor} ${styling?.span} ${styling?.order} relative flex flex-col p-8 gap-1 rounded-[1.250rem] shadow-2xl`}>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 relative z-20">
         <img className="rounded-4xl w-10 h-10" src={userImage} alt={userName} />
         <div>
           <p className={`${styling?.hTextColor}`}>{userName}</p>
